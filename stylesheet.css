@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+  }
+  
+  /* General Page Styling */
+  body {
+    padding: 1rem;
+  }
+
+  header {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: .5rem;
+  }
+
+  nav{
+    /* Use these 4 lines to split two elements on the same line on either
+    side of the page (more info about flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main {
+    /* max-width: 26rem; */
+    /* margin: 0 auto; */
+    background-color: lightgray;
+    padding: .5rem;
+  }
+
+h1,h2,h3,h4, p {
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+  }
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img{
+    max-width: 20rem;
+
+}
+.top {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+   }
+   .imgcontainer{
+    /* margin: 0rem 20rem; */
+    margin-left: 0rem;
+    padding: 0px;
+    position: absolute;
+    filter: saturate(2) contrast(250);
+    image-rendering: pixelated;
+
+}
+.leftConvo{
+    /* margin: 0 100rem 1rem 1rem; */
+    margin-left: 27rem;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+}
+.text{
+    position: relative;
+    z-index:3;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px .5rem rgba(139, 139, 139,.5);
+}
+.rightConvo{
+    /* margin: 0 100rem 1rem 1rem; */
+    margin-left: 15rem;
+    margin-right: 27rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    /*   background-color: lightgreen; */
+      text-align: center;
+      position:fixed;
+      bottom: 1rem;
+    }
