@@ -54,7 +54,16 @@ img{
    }
    .imgcontainer{
     /* margin: 0rem 20rem; */
-    margin-left: 0rem;
+    margin-left: 40rem;
+    padding: 0px;
+    position: absolute;
+    filter: saturate(2) contrast(250);
+    image-rendering: pixelated;
+
+}
+.imgcontainerRight{
+    /* margin: 0rem 0rem; */
+    margin-left: -16rem;
     padding: 0px;
     position: absolute;
     filter: saturate(2) contrast(250);
@@ -63,20 +72,22 @@ img{
 }
 .leftConvo{
     /* margin: 0 100rem 1rem 1rem; */
-    margin-left: 27rem;
+    margin-left: 25rem;
     margin-right: 15rem;
     margin-bottom: 2rem;
+    background-color: rgb(228, 228, 228);
 }
 .text{
     position: relative;
     z-index:3;
-    background-color: rgb(228, 228, 228);
+    background-color: inherit;
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px .5rem rgba(139, 139, 139,.5);
 }
 .rightConvo{
     /* margin: 0 100rem 1rem 1rem; */
+    background-color: white;
     margin-left: 15rem;
     margin-right: 27rem;
     margin-bottom: 2rem;
